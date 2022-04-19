@@ -40,4 +40,14 @@ public class Employee {
     public int raiseSalary(int percent) {
         return salary += salary * percent;
     }
+
+    @Override
+    public String toString() {
+        return "Employee[" +
+                "id=" + id +
+                ", name='" + firstName + '\'' +
+                lastName + '\'' +
+                ", salary=" + salary +
+                ']';
+    }
 }

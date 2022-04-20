@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b697bde-d4df-4ca7-ab7f-cae331658c10" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Class/src/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class/src/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class/src/InvoiceItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class/src/TestDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class/src/TestEmPloyee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class/src/TestInvoiceltem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class/src/Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/ArithemticTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/ArithemticTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/ArithmeticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/ArithmeticTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/CheckerPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/FiveIntergerSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/PrintTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/RunningNumberMod7Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/RunningNumberOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/RunningNumberSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/RunningNumberSum1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/SaleProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/SevenIntegerSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/SheepPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/SixIntegerSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/SquarePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/StarPatternin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GioiThieuJava/src/TriangularPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Class/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Class/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GioiThieuJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GioiThieuJava/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCustomer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -3,10 +3,10 @@ public class TestCustomer {
         Customer objCustomer = new Customer();
         objCustomer.customerID=100;
         objCustomer.customerName="Jack";
-        objCustomer.custmerAddress="123 Street";
+        objCustomer.customerAddress="123 Street";
         objCustomer.customerAge=30;
-        objCustomer.displayCustomerInformation();
+        objCustomer.dispalyCustomerInformation();
         objCustomer.changeCustomerAddress("123 Fort, Main Street");
-        objCustomer.displayCustomerInformation();
+        objCustomer.dispalyCustomerInformation();
     }
 }

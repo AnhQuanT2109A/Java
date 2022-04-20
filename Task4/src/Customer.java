@@ -1,15 +1,15 @@
 public class Customer {
     int customerID;
     String customerName;
-    String custmerAddress;
+    String customerAddress;
     int customerAge;
     void changeCustomerAddress(String address) {
-        custmerAddress=address;
+        customerAddress = address;
     }
-    void displayCustomerInformation() {
-        System.out.println("Customer Identification Number: "+customerID);
-        System.out.println("Customer Name: "+customerName);
-        System.out.println("Customer Address "+custmerAddress);
-        System.out.println("Customer Age: "+customerAge);
+    void dispalyCustomerInformation() {
+        System.out.println("Customer Identification Number: " + customerID);
+        System.out.println("Customer Name: " + customerAddress);
+        System.out.println("Customer Address: " + customerAddress);
+        System.out.println("Customer Age: "+ customerAge);
     }
 }

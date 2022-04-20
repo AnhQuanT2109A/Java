@@ -39,6 +39,7 @@ public class Account {
      public int tranferTo(Account another, int amount) {
         if(amount<=balance) {
             another.balance+=amount;
+            this.balance-=amount;
         }else {
             System.out.println("The amount is not enough to trasfer");
         }
@@ -47,24 +48,19 @@ public class Account {
 
     @Override
     public String toString() {
-        return "Account{" +
-                "id='" + id + "\n" +
-                ", name='" + name + "\n" +
-                ", balance=" + balance +
-                '}';
+        return "Account" + " id=" + id + " " + " name='" + name + " " + " balance=" + balance  ;
     }
 
     public static void main(String[] args) {
-        Account P1 = new Account("1","Dam Huy Anh Quan");
-        System.out.println("ID: " + P1.getId() + ", Name: "+P1.getName());
-
-        Account P2 = new Account("2","Thanh Thao", 20000);
-
-        System.out.println("ID: "+P2.getId() + ", Name: " + P2.getName() + ", Balance: " + P2.getBalance());
-        System.out.println("ID: "+P2.getId() + ", Name: " + P2.getName() + ", Balance: " + P2.credit(10000));
-        System.out.println("ID: "+P2.getId() + ", Name: " + P2.getName() + ", Balance: " + P2.debit(500));
-        P2.tranferTo(P2,123);
-        System.out.println("ID: "+P2.getId() + ", Name: " + P2.getName() + ", Balance: " + P2.getBalance());
+        Account P1 = new Account("1","Dam Huy Anh Quan",1000);
+        System.out.println(P1.toString());
+        Account P2 = new Account("2", "Thanh Thao", 2000);
+        P2.credit(2000);
+        System.out.println(P2.toString());
+        P2.debit(500);
+        System.out.println(P2.toString());
+        P2.tranferTo(P1, 3500);
+        System.out.println(P1.toString());
         System.out.println(P2.toString());
     }
 }

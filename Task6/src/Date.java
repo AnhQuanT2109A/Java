@@ -3,47 +3,55 @@ public class Date {
     private int month;
     private int year;
     public Date(int Day, int Month, int Year) {
-        day = Day;
-        month = Month;
-        year = Year;
+        if(Day>=1 && Day <=31 && Month>=1 && Month <=12 && Year>=1900 && Year<=9999 ){
+            day = Day;
+            month = Month;
+            year = Year;
+        }else {
+            System.out.println("ERR");
+            day = 1;
+            month = 1;
+            year = 1900;
+        }
+
     }
 
     public int getDay() {
-        if(day>=1 && day<= 31) {
-            return day;
-        }else {
-            System.out.println("Wrong Day");
-        }
         return day;
     }
     public int getMonth() {
-        if(month>=1 && month<=12) {
-            return month;
-        }else  {
-            System.out.println("Wrong Month");
-        }
         return month;
     }
 
     public int getYear() {
-        if(year>=1900 && year<=9999) {
-            return year;
-        }else {
-            System.out.println("Wrong Year");
-        }
         return year;
     }
 
-    public void setDay(int day) {
-        this.day = day;
+    public void setDay(int Day) {
+        if(Day>=1 && Day <=31 ){
+            day = Day;
+        }else {
+            System.out.println("ERR");
+            day = 1;
+        }
     }
 
-    public void setYear(int year) {
-        this.year = year;
+    public void setYear(int Year) {
+        if(Year>=1900 && Year <=9900 ){
+            year = Year;
+        }else {
+            System.out.println("ERR");
+            year = 1;
+        }
     }
 
-    public void setMonth(int month) {
-        this.month = month;
+    public void setMonth(int Month) {
+        if(Month>=1 && Month <=12 ){
+            month = Month;
+        }else {
+            System.out.println("ERR");
+            month = 1;
+        }
     }
 
     @Override
@@ -56,9 +64,8 @@ public class Date {
     }
 
     public static void main(String[] args) {
-        Date D1 = new Date(25, 07, 2003);
+        Date D1 = new Date(32, 12, 2003);
         System.out.println(D1.getDay() + D1.getMonth() + D1.getYear());
-
     }
 }
 

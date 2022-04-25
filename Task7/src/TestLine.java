@@ -28,20 +28,19 @@ public class TestLine {
         System.out.println("end's x is: " + l1.getEndX());
 
         System.out.println("end's y is: " + l1.getEndY());
-
+//
         l1.setBeginXY(0, 31);
         l1.setEndXY(0, 34);
 
         l2.setBeginXY(0, 32);
         l2.setEndXY(33, 0);
         System.out.println(l1);
-
+//
         System.out.println("begin's x and y are: " + Arrays.toString(l1.getBeginXY()));
-
+//
         System.out.println("end's x and y are: " + Arrays.toString(l1.getEndXY()));
-
+//
         System.out.printf("length is: %.2f%n", l1.getLength());
-        System.out.println(l1.intersects(l2));
         System.out.println(l1.distance(31,0));
 
 

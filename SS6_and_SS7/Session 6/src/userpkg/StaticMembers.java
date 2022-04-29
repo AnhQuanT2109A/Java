@@ -17,15 +17,14 @@ public class StaticMembers {
 
     }
 
-//    public static void main(String[] args) {
-//        System.out.println("I am the main method");
-//        userpkg.StaticMembers.staticMethod();
-//        userpkg.StaticMembers.staticMethod();
-//        userpkg.StaticMembers objStatic1 = new userpkg.StaticMembers();
-//        objStatic1.displayCount();
-//        userpkg.StaticMembers objStatic2 = new userpkg.StaticMembers();
-//        objStatic2.displayCount();
-//        userpkg.StaticMembers objStatic3 = new userpkg.StaticMembers();
-//        objStatic3.displayCount();
-//    }
+    public static void main(String[] args) {
+        System.out.println("I am the main method");
+        StaticMembers.staticMethod();
+        StaticMembers objStatic1 = new StaticMembers();
+        objStatic1.displayCount();
+        StaticMembers objStatic2 = new StaticMembers();
+        objStatic2.displayCount();
+        StaticMembers objStatic3 = new StaticMembers();
+        objStatic3.displayCount();
+    }
 }

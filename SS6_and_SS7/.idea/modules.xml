@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SS6_and_SS7.iml" filepath="$PROJECT_DIR$/.idea/SS6_and_SS7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session 6/Session 6.iml" filepath="$PROJECT_DIR$/Session 6/Session 6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session 7.1/Session 7.1.iml" filepath="$PROJECT_DIR$/Session 7.1/Session 7.1.iml" />
+    </modules>
+  </component>
+</project>

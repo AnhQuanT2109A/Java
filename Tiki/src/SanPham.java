@@ -1,32 +1,37 @@
-public class SanPham extends LoaiSanPham {
-    private String name;
-    private float price;
+public class SanPham {
+    private int id;
+    private String typeName;
 
     public SanPham() {
-        this.name = " ";
-        this.price = 0;
+        this.id = 0;
+        this.typeName = " ";
     }
-    public  SanPham(int id, String typeName, String name, float price) {
-        super(id, typeName);
-        this.name = name;
-        this.price = price;
-    }
-
-    public String getName() {
-        return name;
+    public SanPham(int id, String typeName) {
+        this.id = id;
+        this.typeName = typeName;
     }
 
-    public float getPrice() {
-        return price;
+    public int getId() {
+        return id;
     }
 
-    public void setPrice(float price) {
-        this.price = price;
+    public String getTypeName() {
+        return typeName;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setTypeName(String typeName) {
+        this.typeName = typeName;
     }
 
     @Override
     public String toString() {
-        return "ID: " +getId() + ", TypeName: " + getTypeName() +
-                ", Name: " + name + ", Price: " + price;
+        return "LoaiSanPham{" +
+                "id=" + id +
+                ", typeName='" + typeName + '\'' +
+                '}';
     }
 }

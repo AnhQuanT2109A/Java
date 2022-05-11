@@ -15,6 +15,8 @@ public class TestPoint2DPoint3D {
         System.out.println(p3a);
         Point2D p3b = new Point3D();
         System.out.println(p3b);
+        Point2D p3c = new Point3D(1,2,3);
+        System.out.println(p3c);
         //setter getter
         p3a.setX(21);
         p3a.setY(22);
